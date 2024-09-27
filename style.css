@@ -145,6 +145,7 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+    
 
 }
 .section__text{
@@ -217,18 +218,28 @@ section{
 /*About Section*/
 #about{
     position: relative;
+    
 }
 .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    justify-content: space-around;
+
 }
 .about-details-container{
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
+
 }
 .about-containers,.about-details-container{
     display:flex ;
+}
+.text-container{
+    text-align: left;
+    width: 90%;
+    margin-left: 10%
 }
 .about-pic{
     border-radius: 2rem;
